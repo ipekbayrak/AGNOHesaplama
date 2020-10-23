@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AGNO Hesaplama</string>
+    <string name="ders_ekleme">Ders Ekleme</string>
+    <string name="save">save</string>
+    <string name="action_settings">settings</string>
+    <string name="addrow">addrow</string>
+    <string name="kayitlar">Kayılar</string>
+    <string name="sonucekran">Sonuç Ekranı</string>
+    <string name="hakkinda">Hakkında</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.kardelenapp.agnohesaplama.agnohesaplama.MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="top"
+            android:background="?attr/colorPrimary"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <RelativeLayout
+
+
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <Button
+                android:text="AA, BA'lı Not Hesaplama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/button1"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/button1color"
+                android:padding="10px"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:text="A1, A2'li Not Hesaplama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button1"
+                android:layout_alignLeft="@+id/button1"
+                android:layout_alignStart="@+id/button1"
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:textColor="@android:color/black"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/button2color"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:text="A+, A 'lı Not Hesaplama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button2"
+                android:layout_alignLeft="@+id/button2"
+                android:layout_alignStart="@+id/button2"
+
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="@android:color/black"
+                android:background="@color/button3color"
+                android:layout_margin="10dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+

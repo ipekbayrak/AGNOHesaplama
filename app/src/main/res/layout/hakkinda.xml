@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="top"
+        android:background="?attr/colorPrimary"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbarHakkinda" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarHakkinda">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            app:srcCompat="@drawable/kardelenapp"
+            android:id="@+id/imageView"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:layout_margin="5dp"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:text="Hazırlayanlar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="36sp"
+            android:layout_margin="10dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="ipmus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="36sp"
+            android:layout_margin="10dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</RelativeLayout>
